@@ -23,9 +23,11 @@ body {
   color: #008000;	
 }
 table, th, td {
-	border: 5px solid blue;
-	background-colour: #ff0000;
+	border: 5px;
 }
+th {
+	background-color: #ff0000
+	colour: #ffff00
 
 .container {
   margin: 0 auto;
