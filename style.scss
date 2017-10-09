@@ -38,7 +38,7 @@ table, th, td {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #ff0000;
+  color: #04ffe;
   font-weight: bold;
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -74,7 +74,7 @@ p {
 }
 
 a {
-  color: #ff0000;
+  color: #04ffe;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -122,16 +122,16 @@ img {
 
 .date {
   font-style: italic;
-  color: #ff0000;
+  color: #04ffe;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: #ff0000;
+  color: #04ffe;
   background: $lightGray;
 }
 ::selection {
-  color: #ff0000;
+  color: #04ffe;
   background: $lightGray;
 }
 
