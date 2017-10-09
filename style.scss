@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6YpW30tfQO6h9zzPY16YWHYIi7UiMmlXKlLiWqd7jrYgdXcECQw);
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6YpW30tfQO6h9zzPY16YWHYIi7UiMmlXKlLiWqd7jrYgdXcECQw) -16px 0 no-repeat;
   font: 18px/1.4;
   color: #ffffff;
 }
@@ -26,8 +26,8 @@ body {
 .container {
   margin: 0 auto;
   max-width: 700px;
-  padding: 0 10px;
-  width: 100%;
+  padding: 20 10px;
+  width: 70%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -165,8 +165,8 @@ img {
 
 .site-avatar {
   float: left;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin-right: 15px;
 
   @include mobile {
