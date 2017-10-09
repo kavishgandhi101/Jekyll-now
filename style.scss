@@ -22,7 +22,7 @@ body {
   font: 18px/1.4 $helvetica;
   color: #ffff00;	
 }
-div, posts {
+div, th, td {
         border: 2px solid red;
         border-radius: 25px;
 	background-color: #ff0000;
@@ -31,31 +31,6 @@ div, posts {
         border-bottom: 5px solid #ff0000;
 	border-left: 5px solid #ff0000;
 	border-right: 5px solid #ff0000;
-}
-#rcorners1 {
-    border-radius: 25px;
-    background: #73AD21;
-    padding: 20px; 
-    width: 200px;
-    height: 150px; 
-}
-
-#rcorners2 {
-    border-radius: 25px;
-    border: 2px solid #73AD21;
-    padding: 20px; 
-    width: 200px;
-    height: 150px; 
-}
-
-#rcorners3 {
-    border-radius: 25px;
-    background: url(paper.gif);
-    background-position: left top;
-    background-repeat: repeat;
-    padding: 20px; 
-    width: 200px;
-    height: 150px; 
 }
 
 .container {
