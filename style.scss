@@ -25,7 +25,7 @@ body {
 table, th, td {
 	border: 5px solid blue;
 	background-color: #cc0000;
-	background-opacity: 0.6;
+	background: rgba(76, 175, 80, 0.3) /* Red background with 30% opacity */;
 	colour: #ffff00;
 }
 
