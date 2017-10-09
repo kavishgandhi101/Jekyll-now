@@ -74,7 +74,7 @@ p {
 }
 
 a {
-  color: #47b300;
+  color: #ff0000;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -122,16 +122,16 @@ img {
 
 .date {
   font-style: italic;
-  color: #47b300;
+  color: #ff0000;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: #47b300;
+  color: #ff0000;
   background: $lightGray;
 }
 ::selection {
-  color: #47b300;
+  color: #ff0000;
   background: $lightGray;
 }
 
