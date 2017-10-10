@@ -256,7 +256,7 @@ nav {
   background: rgba(76, 175, 80, 0.3) /* Red background with 70% opacity */;	
 }
 
-.post {
+.post, table, th, td {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -264,6 +264,10 @@ nav {
     color: #ffbb00;
     font-size: 22px;
     font-style: italic;
+    border-bottom: 5px #ff0000;
+    border-top: 5px #ff0000;
+    border-left: 5px #ff0000;
+    border-right: 5px #ff0000; 
   }
 
   .comments {
