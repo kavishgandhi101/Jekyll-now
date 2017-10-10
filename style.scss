@@ -286,6 +286,12 @@ table, th, td {
 th {
    text-align: left;
 }
+	
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+	
   .comments {
     margin-top: 10px;
   }
