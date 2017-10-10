@@ -275,6 +275,8 @@ nav {
 table, th, td {
    border: 5px solid red;
    background: rgba(76, 175, 80, 0.3) /* Red background with 70% opacity */;	
+   padding: 2px;
+   border: #ff0000;
 }
   .comments {
     margin-top: 10px;
