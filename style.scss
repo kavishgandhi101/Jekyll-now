@@ -14,20 +14,20 @@
 /**************/
 
 html {
-  font-size: 100%;
+  font-size: 110%;
 }
 
 body {
 	background: url(https://lh3.googleusercontent.com/mCVsAtG1EpSwbaGIkSo1v2WFkwKG_khaAz0iP9F3uuDkxzfYarKAfIIJVuq0FfiC7gCLu5cP=w640-h400-e365);
  size: 400px;
-font: 18px/1.4;
+font: 14px/1.4;
   color: #800000;
 }
 
 .container {
   margin: 0 auto;
   max-width: 700px;
-  padding: 20 10px;
+  padding: 50 30px;
   width: 70%;
 }
 
@@ -62,7 +62,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #800000;
+  color: $white;
 }
 
 p {
@@ -156,7 +156,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 40px 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -171,13 +171,13 @@ img {
   margin-right: 15px;
 
   @include mobile {
-    float: none;
+    float: middle;
     display: block;
     margin: 0 auto;
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 7px;
   }
 }
 
@@ -243,20 +243,20 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  padding-bottom: 4em;
+  border-bottom: 10px solid $lightGray;
 }
 
 .posts > .post:last-child {
   padding-bottom: 1em;
-  border-bottom: none;
+  border-bottom: 10px;
 }
 
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
+    border-left: 4px solid $gray;
+    padding: 1em 2em;
     color: $gray;
     font-size: 22px;
     font-style: italic;
