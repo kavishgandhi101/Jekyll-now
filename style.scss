@@ -20,7 +20,7 @@ html {
 body {
 	background: url(https://images.vexels.com/media/users/1925/71634/raw/90d8cf008f085751cc98d3114ccc1368-glowing-blue-triangular-pattern-background.jpg);
 font: 14px/1.4;
-  color: #FF0033;
+  color: #000000;
 }
 
 .container {
@@ -32,7 +32,7 @@ font: 14px/1.4;
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Sansserif;
-  color: #C0C0C0;
+  color: #000000;
   font-weight: bold;
 
   line-height: 1.5;
@@ -61,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #CC3333;
+  color: #000000;
 }
 
 p {
@@ -73,7 +73,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #000000;
+    color: #ffffff;
   }
 }
 
@@ -117,7 +117,7 @@ img {
 
 .date {
   font-style: italic;
-  color: #0000ff;
+  color: #CC3333;
 }
 
 // Specify the color of the selection
