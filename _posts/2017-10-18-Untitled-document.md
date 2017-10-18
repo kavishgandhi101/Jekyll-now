@@ -1,5 +1,5 @@
 ---
-title: Untitled document
+title:  My Monday Blog : Fuze boxes 2
 layout: post
 author: kayan.soomro
 permalink: /untitled-document/
