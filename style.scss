@@ -281,8 +281,12 @@ table, th, td {
    border-top-right-radius: 25px;	
    border-bottom-right-radius: 25px;
    border-bottom-left-radius: 25px;
-   tr:nth-child(odd) {background-color: #339933};
 }
+	
+tr:nth-child(even){background-color: #f2f2f2}
+   </style>
+   </head>
+   <body>
 	
 th {
    text-align: left;
