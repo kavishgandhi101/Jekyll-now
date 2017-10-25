@@ -282,6 +282,7 @@ table, th, td {
    border-bottom-right-radius: 25px;
    border-bottom-left-radius: 25px;
    tr:nth-child(odd) {background-color: #339933};
+   tr:nth-child(even) {background-color: #339933};
 }
 
 th {
