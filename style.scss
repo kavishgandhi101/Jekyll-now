@@ -245,7 +245,6 @@ nav {
   border: #ff0000;
   border-radius: 20px;
   background-color: #ff0000;
-  tr:nth-child(even) {background-color: #339933};
   background: rgba(255,0,0,0.4) /* Red background with 40% opacity */;	
 }
 
@@ -271,7 +270,6 @@ nav {
     border-right: 5px #ff0000; 
     border: 2px solid red;
     border-radius: 25px;
-    tr:nth-child(even) {background-color: #339933};
   }
 
 table, th, td {
