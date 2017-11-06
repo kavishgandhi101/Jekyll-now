@@ -28,8 +28,8 @@ font: 14px/1.4;
   max-width: 700px;
   padding: 50 30px;
   width: 60%;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
+  div {
+ 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -171,6 +171,12 @@ color: white;
 background: #233237;
 height:50px;
 vertical-align: middle;
+	div {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+
 }
 .wrapper-masthead {
   margin-bottom: 50px;
