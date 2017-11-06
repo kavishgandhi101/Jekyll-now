@@ -281,7 +281,7 @@ table, th, td {
    border-top-right-radius: 25px;	
    border-bottom-right-radius: 25px;
    border-bottom-left-radius: 25px;
-	tr:nth-child(2) {background-color: rgba(51,153,51,0.4) /* Red background with 40% opacity */};	
+	tr:nth-child(even 1) {background-color: rgba(51,153,51,0.7) /* Red background with 70% opacity */};	
 }
 
 th {
