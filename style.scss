@@ -30,6 +30,11 @@ font: 14px/1.4;
   width: 60%;
 }
 
+div {
+    opacity: 0.3;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Sansserif;
   color: #000000;
