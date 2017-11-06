@@ -171,10 +171,6 @@ background: #233237;
 height:50px;
 vertical-align: middle;
 }
-div {
-    opacity: 0.3;
-    filter: alpha(opacity=30); /* For IE8 and earlier */
-}
 	
 
 
@@ -288,6 +284,10 @@ nav {
     color: $gray;
     font-size: 22px;
     font-style: italic;
+	  div {
+    opacity: 0.3;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+}
   }
 
   .comments {
