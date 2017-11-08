@@ -28,6 +28,10 @@ font: 14px/1.4;
   max-width: 700px;
   padding: 50 30px;
   width: 60%;
+	div {
+    opacity: 0.3;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+}
  
 }
 
