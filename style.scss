@@ -21,7 +21,11 @@ body {
 	background: url(http://www.thestarwarstrilogy.com/StarWars/wallpaper/Original-Trilogy-Matte-Paintings/Original%20Trilogy%20-%20Matte%20Paintings%2006.jpg);
 	background-repeat: no-repeat;
   font: 18px/1.4 $helvetica;
-  color: #ffff00;	
+  color: #ffff00;
+  background {
+    max-width: 100%;
+    height: auto;
+}
 }
 
 .container {
