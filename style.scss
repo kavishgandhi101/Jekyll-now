@@ -23,11 +23,18 @@ body {
   color: #ffff00;
       background-repeat: no-repeat;	  
 }
+.container {
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 0 10px;
+  width: 100%;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: #00ffff;
   font-weight: bold;
+	
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
