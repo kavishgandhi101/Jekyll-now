@@ -20,7 +20,9 @@ html {
 body {
   background-image: url(https://www.walldevil.com/wallpapers/h12/cool-backgrounds-background-computer-wallpapers.jpg);
   background-attachment: fixed;
-	font: 18px/1.4 $helvetica;
+  background-postition: centered;
+  background-repeat: no-repeat;
+  font: 18px/1.4 $helvetica;
   color: #ff0000;  
 }
 .container {
@@ -46,14 +48,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 
   @include mobile {
-    line-height: 1.4;
+  line-height: 1.4;
   }
 }
 
 h1 {
   font-size: 30px;
-  a {
-    color: inherit;
+a {
+  color: inherit;
   }
 }
 
@@ -77,9 +79,9 @@ p {
 a {
   color: #00ffff;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
-    color: #ff0000;
+  color: #ff0000;
   }
 }
 
@@ -147,12 +149,12 @@ td {
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
-  max-width: none;
+    max-width: none;
 }
 
 .date {
-  font-style: italic;
-  color: #ff0000;
+    font-style: italic;
+    color: #ff0000;
 }
 
 // Specify the color of the selection
