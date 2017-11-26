@@ -18,16 +18,24 @@ html {
 }
 
 body {
-	background-image: url(http://www.theforce.net/swtc/Pix/chron/tatooinebig.jpg);
-  font: 18px/1.4 $helvetica;
+  background-image: url(http://www.theforce.net/swtc/Pix/chron/tatooinebig.jpg);
+  background-attachment: fixed;
+  background-position: center;
+	font: 18px/1.4 $helvetica;
   color: #ffff00;
       background-repeat: no-repeat;	  
 }
 .container {
+
+	
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 850px;
   padding: 0 10px;
   width: 100%;
+  background: rgba(51,51,0,0.6);
+  border-radius: 25px;
+  padding: 20px;
+  border-bottom: 1px solid white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -108,6 +116,35 @@ strong, b {
 
 img {
   max-width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+   color: black;
+   background: rgba(232, 153, 27, 0.6);
+   height:50px;
+   vertical-align: middle;
+}
+
+table, th, td {
+   border: 2px solid black;
+   background-color:rgba(239, 194, 81, 0.6);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+td {
+    vertical-align: center;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -243,21 +280,15 @@ nav {
 
 .posts > .post {
   padding: 2px;
-  border: #ff0000;
-  border-radius: 20px;
-  background-color: #ff0000;
-  background: rgba(255,0,0,0.4) /* Red background with 40% opacity */;	
+  border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
-  padding: 2px;
-  border: #ff0000;
-  border-radius: 20px;
-  background-color: #ff0000;
-  background: rgba(255,0,0,0.4) /* Red background with 40% opacity */;	
+  padding-bottom: 1em;
+  border-bottom: none;
 }
 
-.post, table, th, td {
+.post {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -265,40 +296,7 @@ nav {
     color: #ffbb00;
     font-size: 22px;
     font-style: italic;
-    border-bottom: 5px #ff0000;
-    border-top: 5px #ff0000;
-    border-left: 5px #ff0000;
-    border-right: 5px #ff0000; 
-    border: 2px solid red;
-    border-radius: 25px;
   }
-
-table, th, td {
-   border: 5px solid red;
-   padding: 25px;
-   border: #ff0000;
-   border-top-left-radius: 25px;
-   border-top-right-radius: 25px;	
-   border-bottom-right-radius: 25px;
-   border-bottom-left-radius: 25px;
-   background-color: rgba(51,51,0,0.6) /* Background with 60% opacity */;
-   div {
-    background-color: #8b0000;
-}
-
-p {
-    background-color: #00008b;
-}
-}
-
-th {
-   text-align: left;
-}
-	
-td {
-    height: 50px;
-    vertical-align: bottom;
-}
 	
   .comments {
     margin-top: 10px;
