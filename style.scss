@@ -81,7 +81,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #04ffee;
+    color: #ff0000;
   }
 }
 
@@ -154,7 +154,7 @@ td {
 
 .date {
   font-style: italic;
-  color: #04ffe;
+  color: #ff0000;
 }
 
 // Specify the color of the selection
@@ -229,7 +229,7 @@ td {
 
 .site-name {
   margin: 0;
-  color: #ffa500;
+  color: #00ffff;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -239,7 +239,7 @@ td {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: #ffa500;
+  color: #00ffff;
   font-size: 16px;
 
   @include mobile {
