@@ -262,14 +262,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: #47b300;
+    color: #00ffff;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: #ffbb00;
+      color: #00ffff;
     }
   }
 }
@@ -293,7 +293,7 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: #ffbb00;
+    color: #00ffff;
     font-size: 22px;
     font-style: italic;
   }
