@@ -146,9 +146,12 @@ td {
 }
 
 a:link {
-    color: #0000ff;
+    color: #00ffff;
 }
 
+a:visited {
+    color: #00ffff;
+}
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
     max-width: none;
