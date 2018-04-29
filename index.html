@@ -2,7 +2,49 @@
 layout: default
 ---
 
-<div class="posts">
+
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<div class="w3-container">
+  <h2>Python is the best!!!</h2>
+  </div>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides w3-animate-top" src="/images/Learn-coding-online.jpeg" style="width:100%">
+  <img class="mySlides w3-animate-left" src="/images/python-programming-language-concept-snake-glasses-computer-monitor-74151843.jpg" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="/images/python-snake.jpgs" style="width:100%">
+  <img class="mySlides w3-animate-right" src="/images/pexels-photo-270348-598f140868e1a20011c6ec6b.jpg" style="width:100%">
+</div>
+
+    
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2500);    
+}
+</script>
+
+<iframe width="900" height="450" src="https://www.youtube.com/embed/pZwvrxVavnQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  
+  
+  
+  
   {% for post in site.posts %}
     <article class="post">
 
@@ -16,3 +58,8 @@ layout: default
     </article>
   {% endfor %}
 </div>
+
+
+
+</body>
+</html>
